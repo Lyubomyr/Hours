@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 ruby "2.3.1"
 
@@ -42,10 +42,9 @@ gem "redcarpet"
 gem "holidays"
 gem "sprockets-rails", "~> 2.3"
 gem "brakeman"
+gem "dotenv-rails"
 
-source "https://rails-assets.org" do
-  gem "rails-assets-chartjs"
-end
+gem 'rails-assets-chartjs', source: 'https://rails-assets.org'
 
 # caching
 
@@ -63,7 +62,6 @@ group :development do
 end
 
 group :development, :test do
-  gem "dotenv-rails"
   gem "factory_girl_rails"
   gem "pry-rails"
   gem "rspec-rails", "~> 3.0"
