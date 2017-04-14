@@ -5,6 +5,8 @@
 /.bundle
 /.env
 /.foreman
+/.powrc
+/.rvmrc
 /coverage/*
 /db/*.sqlite3
 /log/*
@@ -12,3 +14,4 @@
 /tags
 /tmp/*
 /config/database.yml
+

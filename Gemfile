@@ -5,6 +5,7 @@ ruby "2.3.1"
 gem "airbrake"
 gem "bourbon"
 gem "coffee-rails"
+gem 'dotenv-rails'
 gem "delayed_job_active_record", "4.0.3"
 gem "email_validator"
 gem "flutie"
@@ -42,7 +43,6 @@ gem "redcarpet"
 gem "holidays"
 gem "sprockets-rails", "~> 2.3"
 gem "brakeman"
-gem "dotenv-rails"
 
 gem 'rails-assets-chartjs', source: 'https://rails-assets.org'
 
