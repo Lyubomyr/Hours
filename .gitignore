@@ -4,6 +4,10 @@
 *.swp
 /.bundle
 /.env
+/.env.production
+/.env.staging
+/.env.development
+/.env.test
 /.foreman
 /.powrc
 /.rvmrc
